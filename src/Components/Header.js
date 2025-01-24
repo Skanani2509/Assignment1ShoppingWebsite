@@ -7,7 +7,6 @@ const Header = ({ user, logout}) => {
             <nav>
             <Link to="/" style={{ marginRight: "15px", color: "#fff", textDecoration: "none" }}>Home</Link>
             <Link to="/cart" style={{ marginRight: "15px", color: "#fff", textDecoration: "none" }}>Cart</Link>
-            <Link to="/cart" style={{ marginRight: "15px", color: "#fff", textDecoration: "none" }}>Cart</Link>
             <Link to="/account" style={{ marginRight: "15px", color: "#fff", textDecoration: "none" }}>Account</Link>
             <Link to="/comments" style={{ marginRight: "15px", color: "#fff", textDecoration: "none" }}>Comments</Link>
             {user ? (
