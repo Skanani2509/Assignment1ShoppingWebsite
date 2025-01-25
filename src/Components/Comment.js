@@ -16,10 +16,32 @@ const Comments = ({ comments, addComment }) => {
       return (
         <div>
           <h1>Comments</h1>
+          <div className="comments-list">
+            {comments.map((comment, index) => (
+            <div key={index} style={{ marginBottom: "15px" }}>
+            <p>{comment.text}</p>
+            {comment.image && (
+              <img
+                src={URL.createObjectURL(comment.image)}
+                alt="Uploaded"
+                style={{ width: "100px" }}
+              />
+            )}
         </div>
-            )
+         ))}
+
+       </div>
+       <textarea
+        placeholder="Add your comment"
+        value={newComment}
+        onChange={(e) => setNewComment(e.target.value)}
+      ></textarea>
+
+      </div>  
+
+    );
           
-    };
+ };
     
 
 
