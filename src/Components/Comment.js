@@ -36,13 +36,10 @@ const Comments = ({ comments, addComment }) => {
         value={newComment}
         onChange={(e) => setNewComment(e.target.value)}
       ></textarea>
-
+      <input type="file" onChange={(e) => setImage(e.target.files[0])} />
+      <button onClick={handleCommentSubmit}>Submit</button>
       </div>  
-
-    );
-          
+    );          
  };
-    
-
 
 export default Comments;
