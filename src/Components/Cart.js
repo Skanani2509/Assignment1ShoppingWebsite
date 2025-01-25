@@ -27,7 +27,9 @@ const Cart = ({ cart, updateCart, finalizePurchase }) => {
                   <button onClick={() => updateCart(item.id, 0)}>Remove</button>
                 </div>
               ))}
-              
+              {/* Display the total price */}
+              <h2>Total Price: ${totalPrice.toFixed(2)}</h2>
+              <button onClick={finalizePurchase}>Finalize Purchase</button>              
             </div>
           )}
         </div>
