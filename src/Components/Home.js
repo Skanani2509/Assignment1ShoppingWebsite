@@ -14,7 +14,7 @@ const Home = ({ addToCart }) => {
             <div className="product-list">
                 {products.map((product) => (
                     <div key={product.id} className="product-card">
-                        <img src={product.image} alt={product.name} style={{ width: "150px" }}/>
+                        <img src={product.image} alt={product.name} style={{ width: "281px" }}/>
                         <h3>{product.name}</h3> 
                         <p>{product.description}</p>
                         <p>${product.price}</p>
