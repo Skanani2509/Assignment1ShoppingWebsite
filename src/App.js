@@ -14,6 +14,15 @@ function App() {
   const [cart, setCart] = useState([]);
   const [user, setUser] = useState(null);
   const [comments, setComments] = useState([]);
+
+  // Load user from localStorage
+  useEffect(() => {
+    const savedUser = localStorage.getItem("user");
+    if (savedUser) setUser(JSON.parse(savedUser));
+  }, []);
+
+  
+
 }
 
 export default App;
