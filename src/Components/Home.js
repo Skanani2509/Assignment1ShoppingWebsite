@@ -11,6 +11,13 @@ const Home = ({ addToCart }) => {
     return(
         <div>
             <h1>Products</h1>
+            <div className="product-list">
+                {products.map((product) => (
+                    <div>
+                        
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
