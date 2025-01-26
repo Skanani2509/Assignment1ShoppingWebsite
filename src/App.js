@@ -66,7 +66,19 @@ function App() {
       <Header user={user} logout={handleLogout} />
       <Routes>
         <Route path="/" element={<Home addToCart={addToCart} />} />
-      
+
+        <Route
+          path="/cart"
+          element={
+            user ? (
+              <Cart cart={cart} updateCart={updateCart} finalizePurchase={() => alert("Purchase finalized!")} />
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        
+
       </Routes>
 
     </Router>
