@@ -17,6 +17,15 @@ const Home = ({ addToCart }) => {
                         <img src={product.image} alt={product.name} style={{ width: "150px" }}/>
                         <h3>{product.name}</h3> 
                         <p>{product.description}</p>
+                        <p>${product.price}</p>
+                        
+                        <input 
+                            type ="number"
+                            min="1"
+                            placeholder="Quantity"
+                            onChange={(e) => handleQuantityChange(product.id, parseInt(e.target.value, 10))}
+                        />
+
                     </div>
                 ))}
             </div>
