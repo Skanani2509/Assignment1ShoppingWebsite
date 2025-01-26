@@ -89,6 +89,13 @@ function App() {
           }
         />
 
+        <Route
+          path="/comments"
+          element={
+            user ? <Comments comments={comments} addComment={addComment} /> : <Navigate to="/login" replace />
+          }
+        />
+
       </Routes>
 
     </Router>
