@@ -77,7 +77,17 @@ function App() {
             )
           }
         />
-        
+
+        <Route
+          path="/account"
+          element={
+            user ? (
+              <Account user={user} saveUser={saveUser} />
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
 
       </Routes>
 
