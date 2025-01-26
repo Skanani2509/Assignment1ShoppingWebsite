@@ -34,7 +34,11 @@ const Login = ({ onLogin }) => {
           <label>Password:</label>
           <input
             type="password"
-            value={password}/>
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+
+            />
         </div>
         <button type="submit">
           Login
