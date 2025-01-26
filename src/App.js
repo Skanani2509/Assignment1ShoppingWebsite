@@ -64,7 +64,9 @@ function App() {
   return (
     <Router>
       <Header user={user} logout={handleLogout} />
-      
+      <Routes>
+        
+      </Routes>
 
     </Router>
   );
