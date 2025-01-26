@@ -27,15 +27,17 @@ const Comments = ({ comments, addComment }) => {
                 style={{ width: "100px" }}
               />
             )}
-        </div>
-         ))}
+          </div>
+        ))}
 
-       </div>
-       <textarea
+        </div>
+      <textarea
         placeholder="Add your comment"
         value={newComment}
         onChange={(e) => setNewComment(e.target.value)}
-      ></textarea>
+      >
+      </textarea>
+      
       <input type="file" onChange={(e) => setImage(e.target.files[0])} />
       <button onClick={handleCommentSubmit}>Submit</button>
       </div>  
