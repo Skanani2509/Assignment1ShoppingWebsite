@@ -15,7 +15,13 @@ const Login = ({ onLogin }) => {
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "15px" }}>
           <label>Email:</label>
-          <input type="email" value={email} />
+          <input 
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            
+
+          />
         </div>
         <div>
           <label>Password:</label>
