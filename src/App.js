@@ -96,8 +96,8 @@ function App() {
           }
         />
 
+        <Route path="/login" element={<Login onLogin={handleLogin} />} />
       </Routes>
-
     </Router>
   );
 
