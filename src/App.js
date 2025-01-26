@@ -36,6 +36,15 @@ function App() {
   const addToCart = (id, quantity) => {
     const product = products.find((p) => p.id === id);
     setCart((prevCart) => {
+      const existingItem = prevCart.find((item) => item.id === id);
+      if (existingItem) {
+        return prevCart.map((item) =>
+          item.id === id ? { ...item, quantity: item.quantity + quantity } : item
+        );
+      }
+      else{
+        
+      }
     });
   };
 
