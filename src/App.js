@@ -33,6 +33,12 @@ function App() {
     }
   };
 
+  const handleLogout = () => {
+    setUser(null);
+    localStorage.removeItem("user");
+    alert("You have logged out!");
+  };
+
   const addToCart = (id, quantity) => {
     const product = products.find((p) => p.id === id);
     setCart((prevCart) => {
