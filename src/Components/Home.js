@@ -26,8 +26,11 @@ const Home = ({ addToCart }) => {
                             onChange={(e) => handleQuantityChange(product.id, parseInt(e.target.value, 10))}
                         />
                         
-                        <button>
-                            
+                        <button
+                            onClick={() => addToCart(product.id, quantities[product.id] || 1)}
+                            style={{ marginTop: "10px" }}
+                        >
+                            Add To Cart
                         </button>
                     </div>
                 ))}
