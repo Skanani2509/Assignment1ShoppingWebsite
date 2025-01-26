@@ -48,6 +48,9 @@ function App() {
     });
   };
 
+  const updateCart = (id, quantity) => {
+  };
+
 }
 
 export default App;
