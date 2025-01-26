@@ -33,6 +33,11 @@ function App() {
     }
   };
 
+  const addToCart = (id, quantity) => {
+    const product = products.find((p) => p.id === id);
+    setCart((prevCart) => {
+    });
+  };
 
 }
 
