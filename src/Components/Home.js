@@ -7,4 +7,10 @@ const Home = ({ addToCart }) => {
     const handleQuantityChange = (id, qty) => {
         setQuantities({ ...quantities, [id]: qty});
     };
+
+    return(
+        
+    );
 };
+
+export default Home;
