@@ -65,7 +65,8 @@ function App() {
     <Router>
       <Header user={user} logout={handleLogout} />
       <Routes>
-        
+        <Route path="/" element={<Home addToCart={addToCart} />} />
+      
       </Routes>
 
     </Router>
