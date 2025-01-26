@@ -43,7 +43,7 @@ function App() {
         );
       }
       else{
-        
+        return [...prevCart, { ...product, quantity }];
       }
     });
   };
