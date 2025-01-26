@@ -49,6 +49,11 @@ function App() {
   };
 
   const updateCart = (id, quantity) => {
+    setCart((prevCart) =>
+      prevCart
+        .map((item) => (item.id === id ? { ...item, quantity } : item))
+        .filter((item) => item.quantity > 0)
+    );
   };
 
 }
