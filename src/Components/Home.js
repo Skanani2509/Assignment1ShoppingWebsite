@@ -3,5 +3,8 @@ import {products} from "../data/products";
 
 const Home = ({ addToCart }) => {
     const [quantities, setQuantities] = useState({});
-    
+
+    const handleQuantityChange = (id, qty) => {
+
+    };
 };
