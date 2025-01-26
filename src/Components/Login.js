@@ -30,7 +30,7 @@ const Login = ({ onLogin }) => {
             }}
           />
         </div>
-        <div>
+        <div style={{ marginBottom: "15px" }}>
           <label>Password:</label>
           <input
             type="password"
