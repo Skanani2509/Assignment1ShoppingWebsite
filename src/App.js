@@ -22,7 +22,15 @@ function App() {
   }, []);
 
   const handleLogin = (email, password) => {
-  
+    const foundUser = users.find((u) => u.email === email && u.password === password);
+    if (foundUser) {
+      setUser(foundUser);
+      localStorage.setItem("user", JSON.stringify(foundUser));
+      alert("Login successful!");
+    } 
+    else {
+      alert("Invalid email or password!");
+    }
   };
 
 
