@@ -6,3 +6,6 @@ export const products = [
     { id: 5, name: "Grapes", description: "Sweet grapes", price: 25, image: "img5.jpeg" },
 ];
 
+export const users = [
+    { id: 1, name: "Angela Adams", email: "angelaadams@gmail.com", shippingAddress: "Waterloo, ON", password: "Angela123" },
+];
