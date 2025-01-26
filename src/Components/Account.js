@@ -23,7 +23,7 @@ const Account = ({ user, saveUser }) => {
         <label>Name:</label>
         <input 
             type="text" 
-            placeholder="Name"
+            placeholder="Enter Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             style={{
@@ -40,7 +40,7 @@ const Account = ({ user, saveUser }) => {
         <label>Email:</label>
         <input 
             type="email" 
-            placeholder="Email"
+            placeholder="Enter Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{
@@ -56,7 +56,7 @@ const Account = ({ user, saveUser }) => {
         <label>Shipping Address:</label>
         <input 
             type="text" 
-            placeholder="Shipping Address"
+            placeholder="Enter Shipping Address"
             value={shippingAddress}
             onChange={(e) => setShippingAddress(e.target.value)}
             style={{
@@ -72,7 +72,7 @@ const Account = ({ user, saveUser }) => {
         <label>Password:</label>
         <input 
             type="password" 
-            placeholder="Password"
+            placeholder="Enter Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             style={{
