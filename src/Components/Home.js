@@ -25,7 +25,10 @@ const Home = ({ addToCart }) => {
                             placeholder="Quantity"
                             onChange={(e) => handleQuantityChange(product.id, parseInt(e.target.value, 10))}
                         />
-
+                        
+                        <button>
+                            
+                        </button>
                     </div>
                 ))}
             </div>
