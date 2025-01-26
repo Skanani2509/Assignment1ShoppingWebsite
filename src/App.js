@@ -21,7 +21,10 @@ function App() {
     if (savedUser) setUser(JSON.parse(savedUser));
   }, []);
 
+  const handleLogin = (email, password) => {
   
+  };
+
 
 }
 
