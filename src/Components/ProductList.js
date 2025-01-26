@@ -7,5 +7,5 @@ export const products = [
 ];
 
 export const users = [
-    { id: 1, name: "Angela Adams", email: "angelaadams@gmail.com", shippingAddress: "Waterloo, ON", password: "Angela123" },
+    { id: 1, name: "Angela Adams", email: "angelaadams@gmail.com", shippingAddress: "Waterloo, ON", password: "angela123" },
 ];
