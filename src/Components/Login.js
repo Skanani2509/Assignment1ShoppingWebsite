@@ -10,10 +10,10 @@ const Login = ({ onLogin }) => {
   };
 
   return (
-    <div>
+    <div style={{ maxWidth: "400px", margin: "50px auto", textAlign: "center" }}>
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div style={{ marginBottom: "15px" }}>
           <label>Email:</label>
           <input type="email" value={email} />
         </div>
