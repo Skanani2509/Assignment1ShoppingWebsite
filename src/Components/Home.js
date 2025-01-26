@@ -13,8 +13,8 @@ const Home = ({ addToCart }) => {
             <h1>Products</h1>
             <div className="product-list">
                 {products.map((product) => (
-                    <div>
-                        
+                    <div key={product.id} className="product-card">
+                        <img src={product.image} alt={product.name} style={{ width: "150px" }}/>
                     </div>
                 ))}
             </div>
