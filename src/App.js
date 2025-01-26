@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Header from "./components/Header";
 import Home from "./pages/home";
 import Cart from "./pages/Cart";
-
+import Account from "./pages/Account";
+import Comments from "./pages/Comments";
+import Login from "./pages/Login";
+import { products, users } from "./data/products";
 
 
 
