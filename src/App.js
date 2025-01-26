@@ -56,6 +56,11 @@ function App() {
     );
   };
 
+  const saveUser = (userData) => setUser(userData);
+
+  const addComment = (comment) => setComments((prevComments) => [...prevComments, comment]);
+
+
 }
 
 export default App;
