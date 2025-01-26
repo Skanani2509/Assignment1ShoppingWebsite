@@ -5,6 +5,6 @@ const Home = ({ addToCart }) => {
     const [quantities, setQuantities] = useState({});
 
     const handleQuantityChange = (id, qty) => {
-
+        setQuantities({ ...quantities, [id]: qty});
     };
 };
