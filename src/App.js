@@ -52,6 +52,7 @@ function App() {
         return [...prevCart, { ...product, quantity }];
       }
     });
+    alert('Product added to cart');
   };
 
   const updateCart = (id, quantity) => {
