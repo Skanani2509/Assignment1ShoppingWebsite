@@ -111,3 +111,13 @@ button:disabled {
   object-fit: cover;
 }
 
+.product-card h3 {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: rgba(var(--rich-black), 0.7);
+  margin: 15px;
+}
