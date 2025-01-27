@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./pages/home";
-import Cart from "./pages/Cart";
-import Account from "./pages/Account";
-import Comments from "./pages/Comments";
-import Login from "./pages/Login";
+import Header from "./Components/Header";
+import Home from "./Components/Home";
+import Cart from "./Components/Cart";
+import Account from "./Components/Account";
+import Comments from "./Components/Comment";
+import Login from "./Components/Login";
 import { products, users } from "./data/products";
 
 
