@@ -40,3 +40,18 @@ header {
   padding: 15px 0;
 }
 
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+header nav a {
+  color: var(--cloud);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
