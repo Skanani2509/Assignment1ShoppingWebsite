@@ -136,3 +136,23 @@ button:disabled {
   margin: 15px;
 }
 
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--sunset);
+  border: 1px solid var(--cloud);
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+.cart-item input {
+  width: 50px;
+  text-align: center;
+}
