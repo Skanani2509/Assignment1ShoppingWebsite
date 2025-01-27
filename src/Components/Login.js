@@ -30,6 +30,7 @@ const Login = ({ onLogin }) => {
             }}
           />
         </div>
+
         <div style={{ marginBottom: "15px" }}>
           <label>Password:</label>
           <input
@@ -47,6 +48,7 @@ const Login = ({ onLogin }) => {
             }}
             />
         </div>
+        
         <button 
           type="submit"
           style={{
