@@ -121,3 +121,18 @@ button:disabled {
   color: rgba(var(--rich-black), 0.7);
   margin: 15px;
 }
+
+.product-card input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid var(--cloud);
+  border-radius: 4px;
+}
+
+.product-card button {
+  display: block;
+  width: calc(100% - 30px);
+  margin: 15px;
+}
+
