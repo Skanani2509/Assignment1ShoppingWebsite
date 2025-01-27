@@ -222,3 +222,28 @@ textarea {
 }
 
 
+
+footer {
+  background-color: var(--flames);
+  color: var(--cloud);
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+  .product-card {
+    font-size: 14px;
+  }
+
+  header nav a {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
