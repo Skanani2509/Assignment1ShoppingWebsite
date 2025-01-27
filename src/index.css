@@ -179,3 +179,46 @@ form {
   max-width: 500px;
   margin: 20px auto;
 }
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--cloud);
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+
+.comments-list {
+  background-color: var(--sunset);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.comments-list p {
+  padding: 10px;
+  border-bottom: 1px solid var(--cloud);
+}
+
+.comments-list p:last-child {
+  border-bottom: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--cloud);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
