@@ -1,9 +1,9 @@
 export const products = [
-    { id: 1, name: "Apple", description: "Fresh apples", price: 20, image: "img1.jpeg" },
-    { id: 2, name: "Orange", description: "Juicy oranges", price: 50, image: "img2.jpeg" },
-    { id: 3, name: "Pomegranate", description: "Fresh pomegranates", price: 15, image: "img3.jpeg" },
-    { id: 4, name: "Watermelon", description: "Cool Watermelon", price: 30, image: "img4.jpeg" },
-    { id: 5, name: "Grapes", description: "Sweet grapes", price: 25, image: "img5.jpeg" },
+    { id: 1, name: "Detox Face Mask", description: "Detox Mask to Energize the Skin", price: 20, image: "img1.jpg" },
+    { id: 2, name: "Dragon Blood Serum", description: "Serum made from Dragon Blood Extract", price: 50, image: "img2.jpg" },
+    { id: 3, name: "Foamy Face Cream", description: "Foamy Cream to Moisturize Dry Skin", price: 15, image: "img3.jpg" },
+    { id: 4, name: "Soothing Herbal Oil", description: "Herbal Oil to Calm and Sooth the Skin", price: 40, image: "img4.jpg" },
+    { id: 5, name: "Charcoal Cleanser", description: "Charcoal Cleanser to remove dirt", price: 25, image: "img5.jpg" },
 ];
 
 export const users = [
